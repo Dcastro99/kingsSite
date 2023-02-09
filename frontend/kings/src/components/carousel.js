@@ -12,3 +12,5 @@ function Carousel() {
 }
 
 export default Carousel
+
+//-------- O_o --------\\
