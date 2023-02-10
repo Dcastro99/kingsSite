@@ -1,25 +1,17 @@
 
 export const styles = {
   main: {
+    width: '100vw',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
     alignItems: 'center',
-    width: '98vw',
-    height: '100vh',
-    backgroundColor: 'darkseagreen'
-  },
-  // carouselContainer: {
-  //   display: 'flex',
-  //   flexDirection: 'row',
-  //   justifyContent: 'center',
-  //   alignItems: 'center',
-  //   width: '70%',
-  //   height: '40%',
+    justifyContent: 'center',
 
-  //   backgroundColor: 'lightgray'
-  // }
 
+    // height: '170vh',
+    // backgroundColor: 'darkseagreen'
+    backgroundColor: 'rgb(102, 135, 130)'
+  }
 }
 
 

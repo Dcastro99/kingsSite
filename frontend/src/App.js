@@ -1,18 +1,24 @@
 // import react from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import Carousel from './components/carousel';
+import Title from './components/Title';
+import About from './components/about';
+import Footer from './components/Footer';
 import { styles } from './styles/appStyles';
 
 
 
 function App() {
   return (
-    <Box sx={styles.main}>
-      {/* <Box sx={styles.carouselContainer} > */}
-      <Carousel />
-      {/* <Typography>New Site!</Typography> */}
-      {/* </Box> */}
-    </Box>
+    <>
+      <Box sx={styles.main}>
+        <Title />
+        <Carousel />
+        <About />
+        <Footer />
+      </Box>
+
+    </>
   );
 }
 
