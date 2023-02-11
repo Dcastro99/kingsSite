@@ -24,5 +24,5 @@ function App() {
   );
 }
 
-console.log('HUH??', styles.main)
+
 export default App;

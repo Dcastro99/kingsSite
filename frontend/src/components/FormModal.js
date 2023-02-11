@@ -12,7 +12,7 @@ export default function BasicModal() {
 
 
   const sendEmail = (e) => {
-    console.log('SEND EMAIL', e)
+
     e.preventDefault();
 
 
