@@ -8,8 +8,7 @@ export const styles = {
     justifyContent: 'center',
 
 
-    // height: '170vh',
-    // backgroundColor: 'darkseagreen'
+
     backgroundColor: 'rgb(102, 135, 130)'
   }
 }

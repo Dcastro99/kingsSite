@@ -1,10 +1,10 @@
 import React from 'react'
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 
 function Footer() {
   return (
     <Box sx={{ marginTop: '5%', marginBottom: '2%' }}>
-      &copy; Kings All Around
+      &copy; Kings All Around LLC
     </Box>
   )
 }

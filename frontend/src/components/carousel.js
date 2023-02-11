@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Box } from '@mui/material';
+import { Box, Card } from '@mui/material';
 import { carouselStyles } from '../styles/carouselStyles';
 import { images } from '../Helpers/carouselData'
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
@@ -11,13 +11,15 @@ function Carousel() {
 
   return (
     <Box sx={carouselStyles.container}>
-      <Box sx={{
+      <Card sx={{
         backgroundImage: `url(${images[currImg].img})`,
         height: '100%',
         width: '100%',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundSize: '30%',
+        backgroundSize: '50% auto',
+        backgroundColor: 'rgba(1,1,1,0.8)',
+        borderRadius: '10px',
         display: 'flex'
       }}>
         <Box sx={carouselStyles.leftCLick}
@@ -35,7 +37,7 @@ function Carousel() {
         >
           <ArrowForwardIosIcon sx={carouselStyles.arrows} />
         </Box>
-      </Box>
+      </Card>
       <Box sx={carouselStyles.imgTitle} >
         <h1>{images[currImg].title}</h1>
         <p>{images[currImg].subtitle}</p>

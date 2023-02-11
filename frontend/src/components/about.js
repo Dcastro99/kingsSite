@@ -1,5 +1,4 @@
 import { Box, Typography } from '@mui/material';
-import { width } from '@mui/system';
 
 import React from 'react'
 //  // sx={{ width: '40%', height: '55%', backgroundColor: 'purple', marginTop: '10%' }}
