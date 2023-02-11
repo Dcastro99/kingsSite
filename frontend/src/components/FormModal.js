@@ -15,7 +15,8 @@ export default function BasicModal() {
     console.log('SEND EMAIL', e)
     e.preventDefault();
 
-    emailjs.sendForm("service_gxgcqfp", "template_qinv3gq", form.current, "_FvT5bq23GsWSATC5")
+    // emailjs.sendForm("service_gxgcqfp", "template_qinv3gq", form.current, "_FvT5bq23GsWSATC5")
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
