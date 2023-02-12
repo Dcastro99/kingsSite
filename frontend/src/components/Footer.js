@@ -1,9 +1,9 @@
 import React from 'react'
 import { Box } from '@mui/material';
-
+import { footerStyles } from '../styles/footerStyles';
 function Footer() {
   return (
-    <Box sx={{ marginTop: '5%', marginBottom: '2%' }}>
+    <Box sx={footerStyles.footerContainer}>
       &copy; Kings All Around LLC
     </Box>
   )

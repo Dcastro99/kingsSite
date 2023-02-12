@@ -42,11 +42,16 @@ export const carouselStyles = {
   arrows: {
     fontSize: 35,
   },
-  imgTitle: {
+  imgTitleContainer: {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-  }
+    marginTop: 5
+  },
+  imgTitle: {
+    fontSize: '31px',
+    fontWeight: 'bold'
+  },
 
 }
